@@ -9,7 +9,7 @@ jobs:
     steps:
       - uses: actions/checkout@v2
       - run: 'cd ui'
-      - run: ' npm run build-deploy'
+      - run: ' npm run build'
       - run: ' cd ../api'
       - run: 'npm run dev'
       - uses: FirebaseExtended/action-hosting-deploy@v0
